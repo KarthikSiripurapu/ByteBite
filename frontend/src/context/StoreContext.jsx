@@ -7,7 +7,7 @@ export const StoreContext = createContext(null)
 const StoreContextProvider = (props) => {
 
     const [cartItems,setCartItems]=useState({});
-    const url = "http://localhost:4000"
+    const url = "https://bytebite-o73i.onrender.com";
     const [token,setToken] = useState("")
     const [food_list,setFoodList] = useState([])
 
@@ -44,7 +44,7 @@ const StoreContextProvider = (props) => {
     }
 
     const fetchFoodList = async () => {
-    const response = await axios.get("http://localhost:4000/api/food/list");
+    const response = await axios.get(url + "/api/food/list");
     setFoodList(response.data.data);
     }
 
