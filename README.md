@@ -17,20 +17,20 @@
 
 # 🍕 ByteBite - MERN Food Delivery Application
 
-ByteBite is a full-stack Food Delivery web application built using the **MERN Stack**. It allows users to browse food items, add them to the cart, place orders, and enables administrators to manage food items through a dedicated Admin Dashboard.
+ByteBite is a full-stack Food Delivery web application built using the **MERN Stack**. The application allows users to browse food items, register/login, add items to their cart, and place orders. It also includes a dedicated **Admin Dashboard** for managing food items and customer orders.
 
 ---
 
 # 🌐 Live Demo
 
 ### 🛒 Frontend
-**https://YOUR-FRONTEND-URL.vercel.app**
+**https://byte-bite-seven.vercel.app**
 
 ### 👨‍💼 Admin Dashboard
-**https://YOUR-ADMIN-URL.vercel.app**
+**https://byte-bite-admin.vercel.app**
 
 ### ⚙️ Backend API
-**https://YOUR-BACKEND.onrender.com**
+**https://bytebite-o731.onrender.com**
 
 ---
 
@@ -42,45 +42,61 @@ ByteBite is a full-stack Food Delivery web application built using the **MERN St
 
 # ✨ Features
 
-- User Registration & Login
+- User Authentication (Register/Login)
 - Browse Food Menu
-- Category Filtering
+- Category-wise Food Filtering
 - Shopping Cart
-- Place Orders
+- Order Placement
 - Admin Dashboard
-- Add / Delete Food Items
-- MongoDB Atlas Integration
+- Add New Food Items
+- Delete Food Items
+- View Customer Orders
+- MongoDB Atlas Database
 - Stripe Payment Integration
-- Responsive UI
+- Fully Responsive Design
 
 ---
 
 # 🛠 Tech Stack
 
-### Frontend
+## Frontend
 
 - React.js
+- JavaScript
+- HTML5
 - CSS3
 - Axios
 
-### Backend
+## Backend
 
 - Node.js
 - Express.js
 - MongoDB Atlas
 - JWT Authentication
-- Stripe API
 - Multer
+- Stripe API
 
-### Deployment
+## Deployment
 
-- Vercel (Frontend & Admin)
-- Render (Backend)
+- Vercel (Frontend)
+- Vercel (Admin Dashboard)
+- Render (Backend API)
 - MongoDB Atlas (Database)
 
 ---
 
-# 🚀 Local Development
+# 🚀 Getting Started
+
+Before running the project locally, make sure you have:
+
+- Node.js installed
+- MongoDB Atlas Database
+- Stripe Account
+- Git
+
+---
+
+# 📥 Installation
 
 ## Clone Repository
 
@@ -94,6 +110,8 @@ cd ByteBite
 
 ## Backend Setup
 
+Open a terminal and navigate to the backend folder.
+
 ```bash
 cd backend
 
@@ -104,19 +122,27 @@ npm run server
 
 Create a **.env** file inside the backend folder.
 
-```
+```env
 PORT=4000
 
-MONGO_URI=Your_MongoDB_URI
+MONGO_URI=Your_MongoDB_Atlas_URI
 
 JWT_SECRET=Your_JWT_SECRET
 
-STRIPE_SECRET_KEY=Your_Stripe_Secret
+STRIPE_SECRET_KEY=Your_Stripe_Secret_Key
+```
+
+Backend will run on
+
+```
+http://localhost:4000
 ```
 
 ---
 
 ## Frontend Setup
+
+Open another terminal.
 
 ```bash
 cd frontend
@@ -126,7 +152,7 @@ npm install
 npm run dev
 ```
 
-Open:
+Frontend will run on
 
 ```
 http://localhost:5173
@@ -134,7 +160,9 @@ http://localhost:5173
 
 ---
 
-## Admin Setup
+## Admin Dashboard Setup
+
+Open another terminal.
 
 ```bash
 cd admin
@@ -144,7 +172,7 @@ npm install
 npm run dev
 ```
 
-Open:
+Admin Dashboard will run on
 
 ```
 http://localhost:5174
@@ -152,13 +180,15 @@ http://localhost:5174
 
 ---
 
-# 📁 Project Structure
+# 📂 Project Structure
 
 ```
 ByteBite
 │
 ├── frontend
+│
 ├── admin
+│
 ├── backend
 │
 └── README.md
@@ -168,7 +198,15 @@ ByteBite
 
 # 📸 Screenshots
 
-(Add more screenshots here)
+### Home Page
+
+<img width="1886" height="873" alt="Screenshot (643)" src="https://github.com/user-attachments/assets/352ec79b-92cc-444a-905a-222e48da6dd4" />
+
+---
+
+### Admin Dashboard
+
+<img width="1869" height="892" alt="Screenshot (647)" src="https://github.com/user-attachments/assets/44ce9d25-6fc9-45a0-a23a-de76d45895e7" />
 
 ---
 
@@ -179,9 +217,6 @@ ByteBite
 GitHub:
 https://github.com/KarthikSiripurapu
 
-LinkedIn:
-(Add your LinkedIn profile)
-
 ---
 
-⭐ If you like this project, don't forget to star the repository.
+If you found this project useful, consider giving it a ⭐ on GitHub.
