@@ -30,7 +30,7 @@ ByteBite is a full-stack Food Delivery web application built using the **MERN St
 **https://byte-bite-admin.vercel.app**
 
 ### ⚙️ Backend API
-**https://bytebite-o731.onrender.com**
+**[https://bytebite-o731.onrender.com](https://bytebite-o73i.onrender.com)**
 
 ---
 
