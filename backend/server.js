@@ -27,11 +27,9 @@ app.use("/api/order",orderRouter)
 app.get("/",(req,res)=>{
     res.send("API Working")
 })
-
 app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
-
 app.get("/test", (req, res) => {
     res.send("Test route works");
 });
