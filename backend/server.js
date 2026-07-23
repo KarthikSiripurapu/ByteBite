@@ -32,3 +32,6 @@ app.listen(port,()=>{
     console.log(`Server Started on http://localhost:${port}`)
 })
 
+app.get("/test", (req, res) => {
+    res.send("Test route works");
+});
