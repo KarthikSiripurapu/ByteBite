@@ -24,7 +24,7 @@
 
   # Installation
 
-<h2>How to install/setup the Front-End</h2>
+<h2>How to install/setup the Frontend</h2>
 
 > Open a terminal in VS Code and go into the frontend folder and then run
 
